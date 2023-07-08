@@ -103,7 +103,8 @@ const FrameIdentifiersV3 = {
     publisherUrl:           "WPUB",
     eventTimingCodes:       "ETCO",
     commercialFrame:        "COMR",
-    uniqueFileIdentifier:   "UFID"
+    uniqueFileIdentifier:   "UFID",
+    albumArtistSortOrder:   "TSO2"
 } as const
 
 /**

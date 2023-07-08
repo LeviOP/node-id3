@@ -97,6 +97,7 @@ export interface TagAliases {
     userDefinedText?: TypeOrTypeArray<TagFrames.UserDefinedText>,
     userDefinedUrl?: TypeOrTypeArray<TagFrames.UserDefinedUrl>,
     year?: TagFrames.Year,
+    albumArtistSortOrder?: TagFrames.AlbumArtistSortOrder
 }
 
 /**
@@ -175,6 +176,7 @@ export interface TagIdentifiers {
     WPAY?: TagAliases["paymentUrl"]
     WPUB?: TagAliases["publisherUrl"]
     WXXX?: TagAliases["userDefinedUrl"]
+    TSO2?: TagAliases["albumArtistSortOrder"]
 }
 
 /**

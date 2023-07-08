@@ -858,3 +858,5 @@ export type CommercialFrame = {
         picture: string | Buffer
     }
 }
+
+export type AlbumArtistSortOrder = string
